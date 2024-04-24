@@ -19,5 +19,5 @@ This repository contains the backend services for the CoffeeShop Mobile Applicat
 
 ## Error Handling and Validation
 - **Not Found**: If a request is made for a menu ID that does not exist in the database, the API responds with a 404 Not Found, indicating that the requested resource is unavailable.
--**Data Validation**: Ensuring that the incoming Reservation data is valid before processing. ASP.NET Core's built-in model validation can be leveraged to verify that all required fields are present and correctly formatted (e.g., valid email, phone number format).
+- **Data Validation**: Ensuring that the incoming Reservation data is valid before processing. ASP.NET Core's built-in model validation can be leveraged to verify that all required fields are present and correctly formatted (e.g., valid email, phone number format).
 - **Error Responses**: If the incoming data fails validation, the API should respond appropriately with error messages detailing what went wrong, typically returning a 400 Bad Request status.
