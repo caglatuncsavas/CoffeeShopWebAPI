@@ -15,13 +15,12 @@ This repository contains the backend services for the CoffeeShop Mobile Applicat
 
 - **GET /api/menus/{id}**
 - Retrieves a specific menu by its ID, including submenu details.
-- 
+  
 ### Reservations
 - **POST /api/reservations**
- - This endpoint is responsible for creating a new reservation in the database. It accepts a Reservation object as input, which includes necessary details such as the customer's name, email, phone number, total people, date, and time of the reservation.
+   - This endpoint is responsible for creating a new reservation in the database. It accepts a Reservation object as input, which includes necessary details such as the customer's name, email, phone number, total people, date, and time of the reservation.
 
 ## Error Handling and Validation
-
 - **Not Found**
   -  If a request is made for a menu ID that does not exist in the database, the API responds with a 404 Not Found, indicating that the requested resource is unavailable.
 -**Data Validation**
