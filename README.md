@@ -10,7 +10,7 @@ This repository contains the backend services for the CoffeeShop Mobile Applicat
 ## API Endpoints
 ### Menus
 
-- **GET /api/menus** : Retrieves all menus with their corresponding submenus using eager loading.
+- **GET /api/menus**: Retrieves all menus with their corresponding submenus using eager loading.
 
 - **GET /api/menus/{id}**: Retrieves a specific menu by its ID, including submenu details.
   
